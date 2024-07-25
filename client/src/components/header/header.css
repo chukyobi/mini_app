@@ -1,0 +1,76 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+    color: white;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.profile_section {
+    display: flex;
+    align-items: center;
+}
+
+.profile_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #3a3a3a;
+    border-radius: 50%;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+}
+
+.profile_details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.profile_details h2 {
+    font-size: 16px;
+    color: #f3f3f3;
+}
+
+.profile_details h3 {
+    font-size: 12px;
+    color: #f3f3f3;
+}
+
+.profile_details h2, .profile_details h3 {
+    margin: 0; /* Remove default margin */
+}
+
+.wallet_container {
+    display: flex;
+    align-items: center;
+    background-color: #242425;
+   padding: 10px 15px;
+    border-radius: 6px;
+    border: 0.5px solid;
+}
+
+.wallet_icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    color: #00ff00;;
+}
+
+.wallet_id {
+    font-size: 12px;
+    color: #fff;
+}

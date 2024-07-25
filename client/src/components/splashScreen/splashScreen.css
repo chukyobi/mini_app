@@ -1,0 +1,28 @@
+/* src/components/SplashScreen.css */
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  transition: opacity 1s ease-in-out;
+}
+
+.splash-screen.fade-out {
+  opacity: 1;
+  /* visibility: hidden; */
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ff0000;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
